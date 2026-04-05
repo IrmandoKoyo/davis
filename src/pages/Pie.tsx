@@ -16,6 +16,7 @@ export default function PieChartComponent() {
           outerRadius={80}
           paddingAngle={5}
           dataKey="value"
+          nameKey="type"
           stroke="none"
         >
           {workoutTypeDistribution.map((entry, index) => (
